@@ -10,6 +10,22 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            string line;
+            int num;
+            line = Console.ReadLine();
+            num = line.Split(' ').Length;
+
+            if (line[0] == ' ')
+	        {
+                --num;
+	        }
+
+            if (line[line.Length - 1] == ' ')
+	        {
+                --num;
+        	}
+
+            Console.WriteLine(num);
         }
     }
 }
