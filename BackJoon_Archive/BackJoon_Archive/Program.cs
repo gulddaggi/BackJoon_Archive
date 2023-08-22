@@ -10,6 +10,23 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int a, b;
+            string prob;
+            prob = Console.ReadLine();
+            a = int.Parse(prob.Split(' ')[0]);
+            b = int.Parse(prob.Split(' ')[1]);
+            if (a < b)
+            {
+                Console.WriteLine('<');
+            }
+            else if (a > b)
+            {
+                Console.WriteLine('>');
+            }
+            else
+            {
+                Console.WriteLine("==");
+            }
         }
     }
 }

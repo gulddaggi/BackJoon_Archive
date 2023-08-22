@@ -1,0 +1,7 @@
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\obj\Debug\BackJoon_Archive.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\obj\Debug\BackJoon_Archive.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\bin\Debug\BackJoon_Archive.exe.config
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\bin\Debug\BackJoon_Archive.exe
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\bin\Debug\BackJoon_Archive.pdb
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\obj\Debug\BackJoon_Archive.exe
+C:\Users\MSI\Documents\GitHub\BackJoon_Archive\BackJoon_Archive\BackJoon_Archive\obj\Debug\BackJoon_Archive.pdb
