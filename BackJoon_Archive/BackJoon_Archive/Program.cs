@@ -10,6 +10,25 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int[] array = new int[9];
+            int ans = 0;
+            int index = 0;
+            for (int i = 0; i < array.Length; i++)
+			{
+                array[i] = int.Parse(Console.ReadLine());
+			}
+
+            for (int i = 0; i < array.Length; i++)
+			{
+                if (array[i] > ans)
+                {
+                    ans = array[i];
+                    index = i;
+                }
+			}
+
+            Console.WriteLine(ans);
+            Console.WriteLine(index + 1);
         }
     }
 }
