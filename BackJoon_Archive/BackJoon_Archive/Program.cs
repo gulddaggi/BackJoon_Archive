@@ -10,6 +10,7 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }
