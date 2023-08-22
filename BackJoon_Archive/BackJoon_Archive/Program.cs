@@ -10,6 +10,16 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+            for (int i = 0; i < a; i++)
+			{
+                string ans = "";
+                for (int j = 0; j < i+1; j++)
+			    {
+                    ans += '*';
+			    }
+                Console.WriteLine(ans.PadLeft(a));
+			}
         }
     }
 }
