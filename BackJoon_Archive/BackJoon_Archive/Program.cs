@@ -10,6 +10,14 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            StringBuilder sb = new StringBuilder();
+            int num = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < num; i++)
+            {
+                sb.AppendLine((i + 1).ToString());
+            }
+            Console.WriteLine(sb);
         }
     }
 }
