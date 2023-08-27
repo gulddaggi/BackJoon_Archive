@@ -10,6 +10,15 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            string prob = Console.ReadLine();
+            int a = int.Parse(prob.Split(' ')[0]);
+            int b = int.Parse(prob.Split(' ')[1]);
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
         }
     }
 }
