@@ -21,12 +21,12 @@ namespace BackJoon_Archive
             	{
                     break;
             	}
-                else
-	            {
-                    prob = tmp.Split(' ');
-            	}
+	            
+                prob = tmp.Split(' ');
                 a = int.Parse(prob[0]);
                 b = int.Parse(prob[1]);
+                
+
                 if ((a <= 0 || b >= 10))
                 {
                     break;
