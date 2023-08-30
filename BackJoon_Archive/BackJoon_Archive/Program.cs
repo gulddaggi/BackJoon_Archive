@@ -10,6 +10,26 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int count = int.Parse(Console.ReadLine());
+            for (int i = 0; i < count; i++)
+            {
+                string prob = Console.ReadLine();
+                int tmp = 0;
+                int ans = 0;
+                for (int j = 0; j < prob.Length; j++)
+                {
+                    if (prob[j] == 'O')
+                    {
+                        ++tmp;
+                        ans += tmp;
+                    }
+                    else
+                    {
+                        tmp = 0;
+                    }
+                }
+                Console.WriteLine(ans);
+            }
         }
     }
 }
