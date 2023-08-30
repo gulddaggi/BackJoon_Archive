@@ -10,6 +10,19 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int count = int.Parse(Console.ReadLine());
+            for (int i = 0; i < count; i++)
+            {
+                string[] prob = Console.ReadLine().Split(' ');
+                int floor = int.Parse(prob[0]);
+                int rooms = int.Parse(prob[1]);
+                int guest = int.Parse(prob[2]);
+                rooms = (guest % floor == 0) ? (guest / floor) : (guest / floor) + 1;
+                floor = guest % floor;
+                if (floor == 0) floor = 1;
+                guest -= floor;
+                Console.WriteLine(floor * 100 + rooms);
+            }
         }
     }
 }
