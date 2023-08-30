@@ -10,6 +10,9 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            StringBuilder sb = new StringBuilder(Console.ReadLine());
+            int index = int.Parse(Console.ReadLine());
+            Console.WriteLine(sb[index-1]);
         }
     }
 }
