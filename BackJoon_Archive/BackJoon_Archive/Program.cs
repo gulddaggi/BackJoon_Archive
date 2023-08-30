@@ -10,6 +10,9 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            string prob = Console.ReadLine();
+            char tmp = prob[0];
+            Console.WriteLine((int)tmp);
         }
     }
 }
