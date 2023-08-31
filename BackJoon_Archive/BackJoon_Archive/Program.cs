@@ -18,9 +18,7 @@ namespace BackJoon_Archive
                 int rooms = int.Parse(prob[1]);
                 int guest = int.Parse(prob[2]);
                 rooms = (guest % floor == 0) ? (guest / floor) : (guest / floor) + 1;
-                floor = guest % floor;
-                if (floor == 0) floor = 1;
-                guest -= floor;
+                floor = (guest % floor == 0) ? (floor) : (guest % floor);
                 Console.WriteLine(floor * 100 + rooms);
             }
         }
