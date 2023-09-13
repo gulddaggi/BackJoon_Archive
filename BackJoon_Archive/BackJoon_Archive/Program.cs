@@ -17,11 +17,6 @@ namespace BackJoon_Archive
             int ans = 0;
             int tmp = prob.Length;
 
-            if (tmp > target)
-            {
-                tmp = target;
-            }
-
             for (int i = 0; i < tmp; i++)
 			{
                 prob[i] = int.Parse(nums[i]);
