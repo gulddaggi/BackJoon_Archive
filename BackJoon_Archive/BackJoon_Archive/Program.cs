@@ -10,6 +10,18 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int num = int.Parse(Console.ReadLine());
+            string[] prob = Console.ReadLine().Split();
+            int target = int.Parse(Console.ReadLine());
+            int ans = 0;
+            for (int i = 0; i < prob.Length; i++)
+            {
+                if (int.Parse(prob[i]) == target)
+                {
+                    ++ans;
+                }
+            }
+            Console.WriteLine(ans);
         }
     }
 }
