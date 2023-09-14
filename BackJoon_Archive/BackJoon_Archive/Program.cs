@@ -10,6 +10,25 @@ namespace BackJoon_Archive
     {
         static void Main(string[] args)
         {
+            int prob = int.Parse(Console.ReadLine());
+            int count = 0;
+            int ans = 666;
+
+            while (true)
+        	{
+                if (ans.ToString().Contains("666"))
+                {
+                    ++count;
+                }
+
+                if (count == prob)
+                {
+                    Console.WriteLine(ans);
+                    break;
+                }
+
+                ++ans;
+        	}
         }
     }
 }
